@@ -19,8 +19,8 @@ class ViewController: UIViewController {
     }
 
     @objc func showView () {
-        
-        SEMapFunctionHandlerAPI.presentMapController(fromController: self) { (image, locationName) in
+        // your own apiKey
+        SEMapFunctionHandlerAPI.presentMapController(fromController: self, apiKey:"") { (image, locationName) in
             
         }
     }

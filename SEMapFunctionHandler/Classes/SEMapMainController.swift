@@ -14,25 +14,26 @@ let NavigationBarH = 44 + UIApplication.shared.statusBarFrame.height
 
 public typealias LocationBlock = (_ clipImage: UIImage, _ locationName: String) -> ()
 @objc public class SEMapMainController: UIViewController {
-    
+
     var reachability: Reachability?
     
-    var isFirstLocated = false
-    var isMapViewRegionChangedFromTableView = false
     var locationBlock: LocationBlock?
-    
-    var searchPage = 1
     
     var searchAPI: AMapSearchAPI = AMapSearchAPI()
     
+    var searchPage = 1
+    var isFirstLocated = false
+    var isMapViewRegionChangedFromTableView = false
     var city: String?
     var locationText: String = ""
+    public var apiKey = ""
+    
     lazy var searchRequest = AMapPOIKeywordsSearchRequest()
     
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        AMapServices.shared()?.apiKey = "28ae2ab4cbd849f03fb35497cd3e35d6"
+        AMapServices.shared()?.apiKey = apiKey
         
         view.backgroundColor = .white
         view.addSubview(mapView)
