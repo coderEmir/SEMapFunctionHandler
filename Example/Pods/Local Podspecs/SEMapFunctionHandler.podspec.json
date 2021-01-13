@@ -1,0 +1,48 @@
+{
+  "name": "SEMapFunctionHandler",
+  "version": "0.1.0",
+  "summary": "A short description of SEMapFunctionHandler.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/seeEmil/SEMapFunctionHandler",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "seeEmil": "864009759@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/seeEmil/SEMapFunctionHandler.git",
+    "tag": "0.1.0"
+  },
+  "resource_bundles": {
+    "SEMapFunctionHandler": [
+      "SEMapFunctionHandler/Assets/*.png"
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SEMapFunctionHandler/Classes/**/{*.swift,*.h}",
+  "swift_versions": "5.0",
+  "static_framework": true,
+  "vendored_frameworks": "SEMapFunctionHandler/Classes/MAMapKit.framework",
+  "dependencies": {
+    "AMapLocation-NO-IDFA": [
+
+    ],
+    "AMapSearch-NO-IDFA": [
+      "~> 6.9.0"
+    ],
+    "Reachability": [
+
+    ],
+    "MJRefresh": [
+
+    ],
+    "SnapKit": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

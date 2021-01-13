@@ -1,0 +1,6 @@
+framework module SEMapFunctionHandler {
+  umbrella header "SEMapFunctionHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

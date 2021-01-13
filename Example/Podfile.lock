@@ -1,0 +1,53 @@
+PODS:
+  - AMapFoundation-NO-IDFA (1.6.5.1)
+  - AMapLocation-NO-IDFA (2.6.7):
+    - AMapFoundation-NO-IDFA (~> 1.6.4)
+  - AMapSearch-NO-IDFA (6.9.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - Reachability (3.2)
+  - SEMapFunctionHandler (0.1.0):
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA (~> 6.9.0)
+    - MJRefresh
+    - Reachability
+    - SnapKit
+  - SnapKit (4.2.0)
+
+DEPENDENCIES:
+  - AMapLocation-NO-IDFA
+  - AMapSearch-NO-IDFA (= 6.9.0)
+  - MBProgressHUD
+  - MJRefresh
+  - Reachability
+  - SEMapFunctionHandler (from `../`)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - AMapFoundation-NO-IDFA
+    - AMapLocation-NO-IDFA
+    - AMapSearch-NO-IDFA
+    - MBProgressHUD
+    - MJRefresh
+    - Reachability
+    - SnapKit
+
+EXTERNAL SOURCES:
+  SEMapFunctionHandler:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMapFoundation-NO-IDFA: 0cf5f6c6de2725bcd868ed5aa756d12bc1a8f463
+  AMapLocation-NO-IDFA: 2a3edfee336b38481b892e1ecc85df0f6b365851
+  AMapSearch-NO-IDFA: 264999e6c149383a8f164c2fe49b51513e93d674
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  SEMapFunctionHandler: af5c1acff8daf2fc9f30c786f0d2f390308b2a19
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+
+PODFILE CHECKSUM: 365cf250ac52f2e810f2018024034af3b6ea6f81
+
+COCOAPODS: 1.9.3
